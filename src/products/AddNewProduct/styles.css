@@ -1,0 +1,23 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.formContainer input{
+    margin-top: 20px;
+    min-width: 400px;
+}
+
+.formContainer .buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.error{
+    color: red;
+}

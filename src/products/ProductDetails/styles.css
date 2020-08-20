@@ -1,0 +1,6 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 20px;
+  text-align: left;
+}
