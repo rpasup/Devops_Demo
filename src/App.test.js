@@ -21,5 +21,5 @@ test('Verify the link tags', () => {
   const links = nav.find('Link');
   expect(links.at(0).text()).toEqual('About');
   expect(links.at(1).text()).toEqual('Products');
-  expect(links.at(2).text()).toEqual('Extra');
+  expect(links.at(2).text()).toEqual('Additional_Info');
 });
