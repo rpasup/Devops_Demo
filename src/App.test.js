@@ -1,9 +1,16 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import {shallow} from 'enzyme';
 import App from './App';
+import { Link } from 'react-router-dom';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('App component should have navigation', () => {
+  const app = shallow(<App />);
+  const nav = app.find('nav');
+  expect(nav.exists()).toEqual(true);
+});
+
+test('Verify the link tags', () => {
+  const app = shallow(<App />);
+  const nav = app.find('nav');
+  expect(nav.find('Link')).toHaveLength(3);
 });
