@@ -37,6 +37,7 @@ class Products extends PureComponent {
               <th>{"Product Name"}</th>
               <th>{"Quantity"}</th>
               <th>{"Price"}</th>
+              <th>{"options"}</th>
             </tr>
           </thead>
           <tbody>

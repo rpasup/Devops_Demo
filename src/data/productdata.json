@@ -19,16 +19,16 @@
       "price": 50000
     },
     {
-      "productName": "Raja",
-      "quantity": "12",
-      "price": "50",
-      "id": 4
+      "productName": "somethingwelse",
+      "quantity": "1",
+      "price": "14000",
+      "id": 11
     },
     {
-      "productName": "second",
-      "quantity": "11",
-      "price": "0988",
-      "id": 5
+      "productName": "hello",
+      "quantity": "1",
+      "price": "1229",
+      "id": 12
     }
   ]
 }
