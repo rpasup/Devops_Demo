@@ -24,10 +24,10 @@ function App() {
             About
           </Link>
           <Link className="links" to="/products">
-            products
+            Products
           </Link>
           <Link className="links" to="/extra">
-            extra
+            Extra
           </Link>
         </nav>
         <Switch>
