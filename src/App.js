@@ -7,6 +7,7 @@ import { getAllProducts } from "./data/api";
 import { setProducts } from "./flux/actions/productActions";
 import { ProductForm } from "./products/AddNewProduct/ProductForm";
 import ProductDetails from "./products/ProductDetails/ProductDetails";
+import { Extrainfo } from "./extrainfo/extrainfo";
 
 function App() {
   getAllProducts()
@@ -26,8 +27,8 @@ function App() {
           <Link className="links" to="/products">
             Products
           </Link>
-          <Link className="links" to="/extra">
-            Extra
+          <Link className="links" to="/extrainfo">
+            Additional_Info
           </Link>
         </nav>
         <Switch>
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/products">
             <Products />
+          </Route>
+          <Route path="/extrainfo">
+            <Extrainfo />
           </Route>
           <Route path="/addNewProduct">
             <ProductForm />
