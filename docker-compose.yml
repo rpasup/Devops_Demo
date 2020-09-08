@@ -4,5 +4,3 @@ services:
     image: capstone:1.0
     ports:
       - "80:80"
-    volumes:
-      - ./build:/usr/share/nginx/html
