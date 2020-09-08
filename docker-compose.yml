@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   web:
-    image: nginx:latest
+    image: capstone:1.0
     ports:
       - "80:80"
     volumes:
