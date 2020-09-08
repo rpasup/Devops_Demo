@@ -1,6 +1,6 @@
 version: '3.7'
 services:
   web:
-    image: capstone:1.0
+    image: capstone:latest
     ports:
       - "80:80"
