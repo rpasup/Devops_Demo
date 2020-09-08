@@ -1,5 +1,5 @@
 const axios = require("axios");
-const baseURL = "http://localhost:5000/";
+const baseURL = "https://rpasup.herokuapp.com/";
 
 export const getAllProducts = () => {
   return new Promise((resolve, reject) => {
