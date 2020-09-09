@@ -12,9 +12,8 @@ export const About = () => {
       •	User can add the product with value. <br></br>
       •	User can add the product quantity. <br></br>
       •	User can view the existing product information (Value and Quantity). </p2>
-      <h2>Team</h2>
+      <h1>Team</h1>
       <br></br>
-      we are doing the Capstone project and the team is <br></br>
       1.Rajasekhar <br></br>
       2.Divya<br></br>
       3.Sowmya umrila

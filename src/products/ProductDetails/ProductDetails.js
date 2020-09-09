@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import { getProductDetails } from "../../data/api";
 import { withRouter, Link } from "react-router-dom";
 import "./styles.css";
+import Button from 'react-bootstrap/Button';
 class ProductDetails extends PureComponent {
   state = {
     product: {},
@@ -30,7 +31,9 @@ class ProductDetails extends PureComponent {
         <p>Product Name: {product.productName}</p>
         <p>Product Quantity: {product.quantity}</p>
         <p>Product Price: {`Rs. ${product.price}`}</p>
-        <Link onClick={this.onBack}>Go Back</Link>
+        <Button variant="outline-secondary">
+          <Link onClick={this.onBack}>Go Back</Link>
+        </Button>
       </div>
     );
   }
