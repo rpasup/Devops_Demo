@@ -8,6 +8,7 @@ import { setProducts } from "./flux/actions/productActions";
 import { ProductForm } from "./products/AddNewProduct/ProductForm";
 import ProductDetails from "./products/ProductDetails/ProductDetails";
 import { Extrainfo } from "./extrainfo/extrainfo";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   getAllProducts()

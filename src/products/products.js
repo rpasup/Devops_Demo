@@ -4,6 +4,7 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 import ProductStore from "./../flux/store/store";
 import actionTypes from "../flux/actions/actionTypes";
+import Button from 'react-bootstrap/Button';
 
 class Products extends PureComponent {
   // const [products, setProducts] = useState([]);
@@ -37,7 +38,6 @@ class Products extends PureComponent {
               <th>{"Product Name"}</th>
               <th>{"Quantity"}</th>
               <th>{"Price"}</th>
-              <th>{"options"}</th>
             </tr>
           </thead>
           <tbody>
@@ -48,6 +48,9 @@ class Products extends PureComponent {
         <Link className="links" to="/addNewProduct">
           Add Product
         </Link>
+        <Button variant="primary" size="lg" block>
+              ADD PRODUCT
+            </Button>
       </div>
     );
   }
