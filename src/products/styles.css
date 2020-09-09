@@ -16,3 +16,9 @@ td {
 h3 {
   text-align: left;
 }
+h1 {
+  width:500px;
+  margin: 0 auto;
+  background: rgb(250, 247, 247);
+  text-align: center;
+}

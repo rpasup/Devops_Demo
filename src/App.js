@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <nav fixed="top">
           <Link className="links" to="/about">
             About
           </Link>
