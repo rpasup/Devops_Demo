@@ -45,12 +45,11 @@ class Products extends PureComponent {
               products.map((prod) => <Product key={prod.id} product={prod} />)}
           </tbody>
         </table>
+        <Button variant="outline-secondary">
         <Link className="links" to="/addNewProduct">
-          Add Product
-        </Link>
-        <Button variant="primary" size="lg" block>
               ADD PRODUCT
-            </Button>
+        </Link>
+        </Button>
       </div>
     );
   }
