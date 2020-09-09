@@ -1,8 +1,9 @@
 import React from "react";
-import {Image, Row, Container, Col} from 'react-bootstrap';
+import {Row, Container, Col, Card} from 'react-bootstrap';
 import rpasup from '../rpasup.jpg';
 import somdev from '../somdev.jpg';
 import divya from '../divya.jpg';
+
 export const About = () => {
   return (
     <Container>
@@ -20,13 +21,28 @@ export const About = () => {
       <br></br>
       <Row>
         <Col xs={6} md={4}>
-          <Image src={somdev} rounded />
+        <Card>
+          <Card.Img variant="top" src={somdev} />
+          <Card.Body>
+          <Card.Title> Somdev Urmaliya </Card.Title>
+          </Card.Body>
+        </Card>
         </Col>
         <Col xs={4} md={4}>
-          <Image src={rpasup} roundedCircle />
+        <Card>
+          <Card.Img variant="top" src={rpasup} />
+          <Card.Body>
+          <Card.Title>Rajasekhar Pasupula </Card.Title>
+          </Card.Body>
+        </Card>
         </Col>
         <Col xs={6} md={4}>
-          <Image src={divya} thumbnail />
+        <Card>
+          <Card.Img variant="top" src={divya} />
+          <Card.Body>
+          <Card.Title>Divyashree Anant Hegde </Card.Title>
+          </Card.Body>
+        </Card>
         </Col>
       </Row>      
     </div>
