@@ -1,6 +1,8 @@
 import React from "react";
 import {Image, Row, Container, Col} from 'react-bootstrap';
 import rpasup from '../rpasup.jpg';
+import somdev from '../somdev.jpg';
+import divya from '../divya.jpg';
 export const About = () => {
   return (
     <Container>
@@ -18,13 +20,13 @@ export const About = () => {
       <br></br>
       <Row>
         <Col xs={6} md={4}>
-          <Image src={rpasup} rounded />
+          <Image src={somdev} rounded />
         </Col>
         <Col xs={4} md={4}>
           <Image src={rpasup} roundedCircle />
         </Col>
         <Col xs={6} md={4}>
-          <Image src={rpasup} thumbnail />
+          <Image src={divya} thumbnail />
         </Col>
       </Row>      
     </div>
