@@ -11,8 +11,8 @@ export const About = () => {
       •	User should enter URL on browser and user should be able to see about page of the Product list. <br></br>
       •	User can add the product with value. <br></br>
       •	User can add the product quantity. <br></br>
-      •	User can view the existing product information (Value and Quantity). </p2>
-      <h1>Team</h1>
+      •	User can view the existing product information (Value and Quantity). </p2><br></br><br></br>
+      <h1>Team Mates</h1>
       <br></br>
       1.Rajasekhar <br></br>
       2.Divya<br></br>

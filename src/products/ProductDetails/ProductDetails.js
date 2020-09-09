@@ -31,7 +31,7 @@ class ProductDetails extends PureComponent {
         <p>Product Name: {product.productName}</p>
         <p>Product Quantity: {product.quantity}</p>
         <p>Product Price: {`Rs. ${product.price}`}</p>
-        <Button variant="outline-secondary">
+        <Button variant="outline-warning">{' '}
           <Link onClick={this.onBack}>Go Back</Link>
         </Button>
       </div>
