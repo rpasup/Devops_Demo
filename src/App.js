@@ -26,17 +26,17 @@ function App() {
         <div className="col-md-12">
           <Router>
             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-              <Navbar.Brand>Capstone Project</Navbar.Brand>
+              <Navbar.Brand href="/">Capstone Project</Navbar.Brand>
               <nav fixed="top">
                 <Link className="links" to="/about">
                   About
-                                  </Link>
+                </Link>
                 <Link className="links" to="/products">
                   Products
-                                  </Link>
+                </Link>
                 <Link className="links" to="/extrainfo">
                   Additional_Info
-                                  </Link>
+                </Link>
               </nav>
             </Navbar>
             <br />
