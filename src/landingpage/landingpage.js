@@ -10,7 +10,7 @@ export const Landingpage = () => {
         It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
         DevOps is complementary with Agile software development; several DevOps aspects came from Agile methodology.
         <br></br><br></br>
-        <Image src={devopslifecycle} height={450} width={450} style={{ alignSelf: 'center' }}/>
+        <Image src={devopslifecycle} height={450} width={850} style={{ alignSelf: 'center' }}/>
     </Container>
   );
 };
