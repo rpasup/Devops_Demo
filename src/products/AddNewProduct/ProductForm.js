@@ -19,6 +19,7 @@ export const ProductForm = (props) => {
         }}
         validate={(values) => {
           const errors = {};
+          // var numbers = /^[-+]?[0-9]+$/;
 
           if (!values.productName) {
             errors.productName = "Product name is required";
@@ -28,6 +29,19 @@ export const ProductForm = (props) => {
           }
           if (!values.productPrice) {
             errors.productPrice = "Product price is required";
+          }
+          if (values.productName.match(/^[-+]?[0-9]+$/)) {
+            errors.productName = "Please input alphabets only";
+          }
+          if (values.productQuantity.match(/^[a-zA-Z]+$/)) {
+            errors.productQuantity = "Please input only Numaric digits only";
+          }
+          if (values.productPrice.match(/^[a-zA-Z]+$/)) {
+            errors.productPrice = "Please input only Numaric digits only";
+          }
+
+          if (values.productName.has(/^[-+]?[0-9]+$/)) {
+            errors.productName = "Please input alphabets only";
           }
 
           return errors;
