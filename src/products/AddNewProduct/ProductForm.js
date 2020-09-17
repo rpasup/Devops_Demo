@@ -40,10 +40,6 @@ export const ProductForm = (props) => {
             errors.productPrice = "Please input only Numaric digits only";
           }
 
-          if (values.productName.has(/^[-+]?[0-9]+$/)) {
-            errors.productName = "Please input alphabets only";
-          }
-
           return errors;
         }}
         onSubmit={(values, { setSubmitting }) => {
