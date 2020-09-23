@@ -10,7 +10,7 @@ export const Extrainfo = () => {
         <h1>!! Tools Used !!</h1>
         * Below is the tool set we are using for performing complete Devops
     </div>
-    <Image src={batch23_img} rounded />
+    <Image src={batch23_img} height={'50%'} width={'50%'} className="image" /> />
     </Container>
   );
 };
