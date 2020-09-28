@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <Container>
     <div className="products">
-      <h1>!! Problem Statement !!</h1>
+      <h1>!! Application Overview !!</h1>
       <p1>For any user, it’s difficult to manage on storing the products information and how many products to be delivered from the ware house in order to send the products to the customer. It will be good to have one website or a page to manage the orders with product list and the basic information (the cost, quantity) stored and displaying the all products list with quantity and prices.</p1>
       <br></br>
       <br></br>
