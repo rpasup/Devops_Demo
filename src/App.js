@@ -29,7 +29,7 @@ function App() {
               <Navbar.Brand href="/">Capstone Project</Navbar.Brand>
               <nav fixed="top">
                 <Link className="links" to="/about">
-                  Home
+                  About
                 </Link>
                 <Link className="links" to="/products">
                   Products
