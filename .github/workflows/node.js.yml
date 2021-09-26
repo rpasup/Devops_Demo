@@ -40,4 +40,4 @@ jobs:
       - name: Deployment 
         run: |
           echo "Deployment is in progress"
-          docker list
+          docker
