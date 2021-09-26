@@ -10,7 +10,8 @@ on:
     branches: [ master ]
 
 jobs:
-  job: build_and_test:
+  job: 
+    name: build_and_test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -31,7 +32,8 @@ jobs:
         with:
           name: code-coverage-report
           path: output/test/code-coverage.html
-  job: Deploy
+  job: 
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Deployment 
