@@ -21,6 +21,8 @@ jobs:
           npm install
           npm run build --if-present
           npm test -- --coverage
+          ls -lrt
+          ls -lrt /coverage/icov-report/index.html
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
@@ -37,7 +39,7 @@ jobs:
     needs: job_1
     runs-on: ubuntu-latest
     steps:
-      - name: Download math result for job 2
+      - name: Download Build artifact from the Build jobnp
         uses: actions/download-artifact@v2
         with:
           name: Build_Artifact
