@@ -37,6 +37,10 @@ jobs:
     needs: job_1
     runs-on: ubuntu-latest
     steps:
+      - name: Download math result for job 2
+        uses: actions/download-artifact@v2
+        with:
+          name: Build_Artifact
       - name: Deployment 
         run: |
           echo "Deployment is in progress"
