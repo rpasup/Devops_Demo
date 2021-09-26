@@ -25,7 +25,6 @@ jobs:
 
   job_2:
     name: Build
-    needs: job_1
     runs-on: windows-latest
     steps:
       - name: Download math result for job 1
@@ -44,7 +43,7 @@ jobs:
 
   job_3:
     name: Deploy
-    needs: Build
+    needs: job_2
     runs-on: macOS-latest
     steps:
       - name: Download math result for job 2
