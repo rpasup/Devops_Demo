@@ -34,6 +34,7 @@ jobs:
           path: output/test/code-coverage.html
   job_2: 
     name: Deploy
+    needs: job_1
     runs-on: ubuntu-latest
     steps:
       - name: Deployment 
