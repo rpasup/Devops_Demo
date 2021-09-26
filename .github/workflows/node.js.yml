@@ -38,4 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment 
-        run: echo "Deployment is in progress"
+        run: |
+          echo "Deployment is in progress"
+          docker list
