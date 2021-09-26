@@ -31,3 +31,7 @@ jobs:
         with:
           name: code-coverage-report
           path: output/test/code-coverage.html
+  job: Deploy
+    runs-on: ubuntu-latest
+    steps: 
+      run: echo "Deployment is in progress"
